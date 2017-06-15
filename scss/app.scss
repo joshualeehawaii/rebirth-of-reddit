@@ -82,17 +82,20 @@ li a {
   display: block;
   margin: auto;
   padding: 10px 10px 10px 10px;
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
-  font-family: 'Anton', sans-serif;
-
+  font-family: 'Oswald', sans-serif;
+  color: grey;
+  text-decoration: none;
 }
 
 .author {
   display: block;
   margin: auto;
   padding: 5px 5px 5px 5px;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color: black;
+  text-decoration: none;
 }
