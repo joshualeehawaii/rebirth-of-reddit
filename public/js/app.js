@@ -30,11 +30,17 @@ function redditData(){
     boardContainer.className = 'boards';
     main.appendChild(boardContainer);
 
-    //This is the container for the image
+    //This is the the image
+    var imageContainer = document.createElement('div');
+    imageContainer.className = 'imageContainer';
+    imageContainer.src = result.data.children[i].data.url;
+    boardContainer.appendChild(imageContainer);
+
+    //This is the the image
     var boardImage = document.createElement('img');
     boardImage.className = 'image';
     boardImage.src = result.data.children[i].data.url;
-    boardContainer.appendChild(boardImage);
+    imageContainer.appendChild(boardImage);
 
     //This is the container for the title
     var boardTitle = document.createElement('div');
