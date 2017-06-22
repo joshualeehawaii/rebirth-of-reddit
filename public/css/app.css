@@ -61,7 +61,7 @@ li a {
   background-color: white;
   border: 10px solid grey;
   box-shadow: 3px 3px 3px black;
-  padding: 15px;
+  padding: 20px;
   margin: 75px; }
 
 @media screen and (min-width: 100px) {
@@ -72,8 +72,8 @@ li a {
 
 .imageContainer {
   margin: auto;
-  width: 70%;
-  height: 70%;
+  width: 75%;
+  height: 80%;
   border: 2px solid grey;
   box-shadow: 3px 3px 3px black; }
 
@@ -120,3 +120,6 @@ li a {
   font-family: 'Lato', sans-serif;
   color: #757575;
   text-decoration: none; }
+
+.footerImage {
+  width: 100px; }
